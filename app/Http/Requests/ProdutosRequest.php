@@ -29,4 +29,12 @@ class ProdutosRequest extends FormRequest
             'valor' => 'required|numeric'
         ];
     }
+
+    public function messages()
+    {
+      return [
+        'required' => 'O campo :attribute não pode ser vazio.',
+        //'nome.required' => 'O campo :attribute não pode ser vazio.'
+      ];
+    }
 }
