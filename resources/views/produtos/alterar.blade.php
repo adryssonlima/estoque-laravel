@@ -1,6 +1,6 @@
-@extends('layout')
+@extends('layouts.app')
 
-@section('conteudo')
+@section('content')
 
     <h1>Alterar produto</h1>
     <form action="{{action('ProdutoController@update')}}" method="post">

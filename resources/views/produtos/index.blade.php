@@ -1,6 +1,6 @@
-@extends('layout')
+@extends('layouts.app')
 
-@section('conteudo')
+@section('content')
 
     @if(empty($produtos))
         <div class="alert alert-danger">

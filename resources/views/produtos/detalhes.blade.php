@@ -1,6 +1,7 @@
-@extends('layout')
+@extends('layouts.app')
 
-@section('conteudo')
+@section('content')
+
     <h1>Detalhes do produto: {{ $produto->nome }} </h1>
     <ul>
         <li>
@@ -13,4 +14,5 @@
             <b>Quantidade em estoque:</b> {{ $produto->quantidade }}
         </li>
     </ul>
+    
 @stop

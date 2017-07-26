@@ -1,6 +1,6 @@
-@extends('layout')
+@extends('layouts.app')
 
-@section('conteudo')
+@section('content')
 
     <div class="alert alert-success">
         <strong>Sucesso!</strong> O produto {{$nome}} foi adicionado.
